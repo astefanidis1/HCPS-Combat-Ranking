@@ -19,3 +19,17 @@ This project blends historical analysis, AI modeling, and statistical methods to
 
 ## 🧪 Status
 Actively refining metrics, adjusting weights, and expanding validation methods.
+
+## Rating Methodology Overview
+
+The HCPS rating system blends historical records with simulation feedback to produce consistent, evidence-weighted combat scores for each warrior. We analyzed distribution shapes across all traits, adjusted for duel presence, formation roles, age, and temperament caps. The result is a battle-tested framework grounded in repeatable logic — not just fan impressions.
+
+Key features:
+- Statistical sanity checks (skew, bimodal curves, outlier detection)
+- Duel receipt modifiers for Finishing Instinct and Weapon Skill
+- Formation role penalties to balance linebreakers vs. duelists
+- Age-based decline logic for stamina, agility, and durability
+- Capped temperament bonus to avoid personality overboosting
+
+💡 All logic and formulas are fully documented in [`docs/methodology.md`](./docs/methodology.md).
+
